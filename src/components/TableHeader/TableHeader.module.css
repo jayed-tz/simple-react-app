@@ -1,0 +1,27 @@
+.sorting button {
+  background: transparent;
+  border: none;
+  padding: 0px;
+
+  display: flex;
+  align-items: center;
+
+  font-size: var(--font-size);
+  font-weight: bold;
+
+  color: var(--color);
+}
+
+.sorting button svg {
+  margin-left: 10px;
+}
+
+.sorting label {
+  cursor: pointer;
+}
+
+.filtering input {
+  width: 100%;
+
+  padding: 5px;
+}
